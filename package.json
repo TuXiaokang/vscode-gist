@@ -93,6 +93,7 @@
     "clean": "del './out' './coverage'"
   },
   "devDependencies": {
+    "@types/chalk": "^2.2.0",
     "@types/istanbul": "^0.4.30",
     "@types/mocha": "^5.2.1",
     "@types/node": "^10.3.2",
@@ -105,17 +106,22 @@
     "decache": "^4.4.0",
     "del": "^3.0.0",
     "del-cli": "^1.1.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-json-editor": "^2.4.1",
     "istanbul": "^0.4.5",
     "remap-istanbul": "^0.11.1",
     "testdouble": "^3.8.1",
     "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.9.2",
     "typescript": "^2.9.1",
     "vscode": "^1.1.18"
   },
   "dependencies": {
     "@octokit/rest": "^15.8.1",
+    "chalk": "^2.4.1",
     "node-git-utils": "^1.4.1",
     "open": "^0.0.5",
     "request": "^2.87.0",

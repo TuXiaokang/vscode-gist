@@ -1,4 +1,5 @@
 {
+  "extends": "tslint-config-airbnb",
   "rules": {
     "no-unused-expression": true,
     "no-duplicate-variable": true,
@@ -7,10 +8,7 @@
     "class-name": true,
     "semicolon": [true, "always"],
     "triple-equals": true,
-    "quotemark": [
-      true,
-      "single",
-      "avoid-escape"
-    ]
+    "quotemark": [true, "single", "avoid-escape"],
+    "ter-arrow-parens": false
   }
 }
